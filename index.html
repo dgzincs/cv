@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <title>Douglas</title>
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/common-pixel');
+        @import url('http://fonts.cdnfonts.com/css/ultimate');
+        
+
+    
+
+        .helloWorld {
+            font-family: 'Common Pixel', sans-serif;
+        }
+
+        .navbar {
+            box-shadow: 8px 8px 8px black;
+            margin-bottom: 1em;
+        }
+
+        .navbar-toggler-icon::after {
+            transform: rotate(90deg);
+        }
+        .logo:hover {
+            transform: rotate(180deg);
+
+        } 
+
+        .bg-header {
+            border-left: 0;
+            border-right: 0;
+            border-top: 0;
+            border-bottom: 2em;
+            border-bottom-style: groove;
+            border-bottom-color: #201d1d;
+        }
+
+        .navbar-toggler-icon:active {
+            transform: rotate(90deg);
+        }
+
+        .sadface {
+            writing-mode: vertical-rl;
+            font-size: 5rem;
+        }
+
+        .social-img:hover {
+            padding: 15px;
+        }
+
+        .works {
+            box-shadow: -5px -5px 2px black;
+            border-style: solid;
+            border-top-right-radius: 10px;
+        }
+
+        .footer address {
+            margin-bottom: 0;
+        }
+
+        .link-deco {
+            text-decoration: ;
+            text-decoration: solid;
+        }
+    </style>
+    </style>
+</head>
+
+<!-- ***By Douglas Oliveira, 2022*** -->
+
+
+
+<body>
+    <!-- Top container -->
+<header>
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <img src="img/logo-black.png" alt="" class="navbar-brand logo rot" width="" height="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-black text-white bg-header">
+            <div class="row text-center align-items-center">
+                <div class="col">
+                 <img src="img/logo.jpg" alt="" class="">
+                    <h1 class="font-monospace text-lg-center">
+                        Douglas Oliveira
+                    </h1>
+                    <p class="text-sm-center ">
+                        Software Development Trainee
+                    </p>
+                   
+                </div>
+                <div class="col about-me">
+                    <h2 class="helloWorld text-center ">Hello, World !</h2>
+                    <br>
+                    <p class="text-sm-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum at minus, omnis voluptas fugit iste labore alias nostrum consequatur porro, officia eaque recusandae amet corporis a minima nemo fugiat. Laudantium.</p>
+                    <br>
+                    <p class="text-sm-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro, quas commodi quibusdam tempora voluptatem sit, asperiores impedit recusandae cupiditate ad quos autem quaerat blanditiis libero accusantium cumque id deserunt.</p>
+                    <br>
+                    
+                </div>
+            </div>
+                
+            
+        </div>
+</header>
+
+<!-- Middle Container -->
+
+<main>
+    <div class="container">
+        <div class="row container-sm text-center mt-5">
+            <ul class="col">
+                <li class="list-unstyled">
+                    <a href="htpps://github.com/dgzincs" target="_blank"><img src="img/github-icon.png" alt="" class="social-img"></a>
+                </li>
+            </ul>
+            <ul class="col">
+                <li class="list-unstyled">
+                    <a href="https://linkedin.com/in/dgzin" target="_blank"><img src="img/linkedin-icon.png" alt="" class="social-img"></a>
+                </li>
+            </ul>
+            <ul class="col">
+                <li class="list-unstyled">
+                    <a href="https://instagram.com/idouglas.oliveira" target="_blank"><img src="img/instagram-icon.png" alt="" class="social-img"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center mt-5" id="aboutme">
+        <div class="text-center works">
+            <h1 class="mt-1 helloWorld">Works</h1>
+            <h2>Soon</h2>
+            <hr>
+            <p>I do not have works yet <br>
+                <spam class="sadface">:(</spam>
+                <br>
+            </p>
+            <img src="img/bongo-cat-tapping-keyboard.gif" alt="">
+
+        </div>
+
+    </div>
+</main>
+
+<!-- Bottom Container -->
+<footer>
+    <div class="container-fluid bg-black footer text-end small" id="contact">
+        <div class="">
+            <span class="text-sm-start">© Made by Douglas Oliveira || São Paulo, Brazil</span> 
+        </div>
+        <div>
+            <a href="htpps://getbootstrap.com"><img src="img/bootstrap-icon.png" alt="" class="link-deco">Made with Bootstrap</a>
+        </div>
+
+            
+    </div>
+</footer>
+
+    
+</body>
+</html>
